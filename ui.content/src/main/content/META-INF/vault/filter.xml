@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/nike" mode="merge"/>
+    <filter root="/content/nike" mode="merge"/>
+    <filter root="/content/dam/nike" mode="merge">
+        <exclude pattern="/content/dam/nike(/.*)?"/>
+        <include pattern="/content/dam/nike/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/nike/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/nike" mode="merge"/>
+</workspaceFilter>

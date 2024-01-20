@@ -1,0 +1,7 @@
+{
+    "scripts": [
+        "create path (sling:OrderedFolder) /content/dam/nike",
+        "create path (nt:unstructured) /content/dam/nike/jcr:content",
+        "set properties on /content/dam/nike/jcr:content\n  set cq:conf{String} to /conf/nike\n  set jcr:title{String} to \"Nike\"\nend"
+    ]
+}

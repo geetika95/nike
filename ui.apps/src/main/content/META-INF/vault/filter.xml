@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/nike/clientlibs"/>
+    <filter root="/apps/nike/components"/>
+    <filter root="/apps/nike/i18n"/>
+    <filter root="/apps/sling" />
+    <filter root="/apps/msm/nike_blueprint" mode="merge"/>
+</workspaceFilter>
