@@ -7,7 +7,8 @@ This is a project template for AEM-based applications. It is intended as a best-
 * To build and deploy the project on Author, use the following command `mvn clean install -PautoInstallPackage`.
 * To build and deploy the project on Publish, use the following command `mvn clean install -PautoInstallPackagePublish`.
 * Install the content package that was provided cms-assignment-jan20-geetika-1.0.zip.
-* Hit http://<aemhost:port>/graphql/execute.json/nike/Get%20Global%20Navigation%20Model to get the json result.
+* Hit http://localhost:4502/graphql/execute.json/nike/Get%20Global%20Navigation%20Model on author to get the json result. 
+* Hit http://localhost:4503/graphql/execute.json/nike/Get%20Global%20Navigation%20Model on publish to get the json result.
 
 ## Modules
 
