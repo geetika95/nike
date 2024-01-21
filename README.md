@@ -9,6 +9,10 @@ This is a project template for AEM-based applications. It is intended as a best-
 * Install the content package that was provided cms-assignment-jan20-geetika-1.0.zip.
 * Hit http://localhost:4502/graphql/execute.json/nike/Get%20Global%20Navigation%20Model on author to get the json result. 
 * Hit http://localhost:4503/graphql/execute.json/nike/Get%20Global%20Navigation%20Model on publish to get the json result.
+* There are two other rest endpoints.
+  * If you access http://localhost:4502/api/getGlobalNavMenu.json, you'll find a JSON structure that's lean and relatively similar to the one provided by Graphql.
+  * If you access http://localhost:7502/api/getGlobalNav.json, you'll find a JSON structure that's more generic.
+
 
 ## Modules
 
